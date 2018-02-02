@@ -45,6 +45,7 @@ public class CacheConfiguration {
             cm.createCache(top.huicode.demo.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(top.huicode.demo.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(top.huicode.demo.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(top.huicode.demo.domain.Employee.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }
